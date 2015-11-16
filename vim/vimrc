@@ -1,0 +1,7 @@
+set hidden
+set nowrap
+set ignorecase
+set smartcase
+" When exiting a buffer read from STDIN, do not prompt
+" to save the buffer
+au StdInReadPost * set buftype=nofile
